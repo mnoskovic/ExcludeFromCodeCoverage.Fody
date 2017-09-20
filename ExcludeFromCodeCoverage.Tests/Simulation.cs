@@ -37,7 +37,7 @@ namespace ExcludeFromCodeCoverage.Tests
 
                 public class NamespaceHierarchyChildClass : IClass
                 {
-                    private string Field;
+                    private string Field = string.Empty;
 
                     public string Property { get; set; }
 

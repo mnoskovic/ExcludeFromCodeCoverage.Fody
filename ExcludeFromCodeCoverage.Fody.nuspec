@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>ExcludeFromCodeCoverage.Fody</id>
-    <version>1.0.1-alpha</version>
+    <version>1.0.2-alpha</version>
     <title>ExcludeFromCodeCoverage.Fody</title>
     <authors>martin.noskovic@gmail.com</authors>
     <owners>martin.noskovic@gmail.com</owners>
@@ -11,7 +11,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Fody add-in to decorate methods or properties with ExcludeFromCodeCoverage attribute (esp. for generated classes e.g. by xsd.exe or other tool where it is not possible to influence the output)</description>
     <copyright>Copyright Martin Noskovic 2017</copyright>
-    <tags>ILWeaving Fody AOP</tags>
+    <tags>ILWeaving Fody AOP CodeCoverage</tags>
     <dependencies>
       <dependency id="Fody" version="2.0" />
     </dependencies>
