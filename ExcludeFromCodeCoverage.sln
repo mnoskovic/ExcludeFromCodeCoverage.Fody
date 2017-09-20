@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcludeFromCodeCoverage", "ExcludeFromCodeCoverage\ExcludeFromCodeCoverage.csproj", "{0F9BB488-A28B-43DC-9ADF-508B042F617B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcludeFromCodeCoverage.Fody", "ExcludeFromCodeCoverage.Fody\ExcludeFromCodeCoverage.Fody.csproj", "{E109FC89-9C5A-43D5-B42E-58EBC7985CBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcludeFromCodeCoverage.Tests", "ExcludeFromCodeCoverage.Tests\ExcludeFromCodeCoverage.Tests.csproj", "{12635DC4-89F9-40C9-98D1-A79DCF523B56}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E109FC89-9C5A-43D5-B42E-58EBC7985CBE} = {E109FC89-9C5A-43D5-B42E-58EBC7985CBE}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{6AAD9A4D-0109-48E2-AC10-A1EAEC0F2592}"
+	ProjectSection(SolutionItems) = preProject
+		ExcludeFromCodeCoverage.Fody.nuspec = ExcludeFromCodeCoverage.Fody.nuspec
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F9BB488-A28B-43DC-9ADF-508B042F617B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F9BB488-A28B-43DC-9ADF-508B042F617B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F9BB488-A28B-43DC-9ADF-508B042F617B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F9BB488-A28B-43DC-9ADF-508B042F617B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E109FC89-9C5A-43D5-B42E-58EBC7985CBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E109FC89-9C5A-43D5-B42E-58EBC7985CBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E109FC89-9C5A-43D5-B42E-58EBC7985CBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E109FC89-9C5A-43D5-B42E-58EBC7985CBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12635DC4-89F9-40C9-98D1-A79DCF523B56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12635DC4-89F9-40C9-98D1-A79DCF523B56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12635DC4-89F9-40C9-98D1-A79DCF523B56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12635DC4-89F9-40C9-98D1-A79DCF523B56}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB3357B8-A16E-4BD8-BB56-55EF438C30E7}
+	EndGlobalSection
+EndGlobal
