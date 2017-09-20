@@ -15,6 +15,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{6AAD9A4D-0109-48E2-AC10-A1EAEC0F2592}"
 	ProjectSection(SolutionItems) = preProject
 		ExcludeFromCodeCoverage.Fody.nuspec = ExcludeFromCodeCoverage.Fody.nuspec
+		Fody_ToBeDeleted.txt = Fody_ToBeDeleted.txt
+		Install.ps1 = Install.ps1
+		Uninstall.ps1 = Uninstall.ps1
 	EndProjectSection
 EndProject
 Global
