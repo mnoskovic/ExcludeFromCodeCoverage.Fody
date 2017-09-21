@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>ExcludeFromCodeCoverage.Fody</id>
-    <version>1.0.2-alpha</version>
+    <version>1.0.0</version>
     <title>ExcludeFromCodeCoverage.Fody</title>
     <authors>martin.noskovic@gmail.com</authors>
     <owners>martin.noskovic@gmail.com</owners>
