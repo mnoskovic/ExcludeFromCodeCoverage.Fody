@@ -2,18 +2,18 @@
 <package >
   <metadata>
     <id>ExcludeFromCodeCoverage.Fody</id>
-    <version>1.0.0</version>
+    <version>1.1.0-update</version>
     <title>ExcludeFromCodeCoverage.Fody</title>
     <authors>martin.noskovic@gmail.com</authors>
     <owners>martin.noskovic@gmail.com</owners>
     <projectUrl>https://github.com/mnoskovic/ExcludeFromCodeCoverage.Fody</projectUrl>
     <developmentDependency>true</developmentDependency>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Fody add-in to decorate methods or properties with ExcludeFromCodeCoverage attribute (esp. for generated classes e.g. by xsd.exe or other tool where it is not possible to influence the output)</description>
+    <description>Fody add-in to decorate public members with ExcludeFromCodeCoverage attribute based on definition (esp. for generated classes e.g. by xsd.exe or other tools where it is not possible to influence the output)</description>
     <copyright>Copyright Martin Noskovic 2017</copyright>
     <tags>ILWeaving Fody AOP CodeCoverage</tags>
     <dependencies>
-      <dependency id="Fody" version="2.0" />
+      <dependency id="Fody" version="2.1.2" />
     </dependencies>
   </metadata>
   <files>
@@ -23,5 +23,6 @@
     <file src="install.ps1" target="Tools" />
     <file src="uninstall.ps1" target="Tools" />
     <file src="Fody_ToBeDeleted.txt" target="Content" />
+    <file src="readme.txt" target="" />
   </files>
 </package>
