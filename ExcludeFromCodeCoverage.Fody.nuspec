@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0"?>
 <package >
-  <metadata>
+  <metadata minClientVersion="2.8">
     <id>ExcludeFromCodeCoverage.Fody</id>
     <version>1.1.0</version>
     <title>ExcludeFromCodeCoverage.Fody</title>
@@ -9,6 +9,12 @@
     <projectUrl>https://github.com/mnoskovic/ExcludeFromCodeCoverage.Fody</projectUrl>
     <developmentDependency>true</developmentDependency>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>http://www.opensource.org/licenses/mit-license.php</licenseUrl>
+    <iconUrl>https://raw.github.com/Fody/Visualize/master/Icons/package_icon.png</iconUrl>
+    <releaseNotes>
+      1.1.0 - improvements, correct .net versioning, documentation
+    </releaseNotes>
+    <summary>Fody add-in to decorate public members of specific types with ExcludeFromCodeCoverage attribute</summary>
     <description>Fody add-in to decorate public members with ExcludeFromCodeCoverage attribute based on definition (esp. for generated classes e.g. by xsd.exe or other tools where it is not possible to influence the output)</description>
     <copyright>Copyright Martin Noskovic 2017</copyright>
     <tags>ILWeaving Fody AOP CodeCoverage</tags>
