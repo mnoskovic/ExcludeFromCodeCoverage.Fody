@@ -6,10 +6,20 @@
 [AttributeUsage(AttributeTargets.Assembly, AllowMultiple = true)]
 public class AttachExcludeFromCodeCoverageAttribute : Attribute
 {
+    /// <summary>
+    /// Namespace regex
+    /// </summary>
     protected string Namespace { get; private set; }
 
+    /// <summary>
+    /// Type regex
+    /// </summary>
     protected string Type { get; private set; }
 
+
+    /// <summary>
+    /// Member regex
+    /// </summary>
     protected string Member { get; private set; }
 
 

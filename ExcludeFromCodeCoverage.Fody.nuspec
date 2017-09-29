@@ -2,7 +2,7 @@
 <package >
   <metadata minClientVersion="2.8">
     <id>ExcludeFromCodeCoverage.Fody</id>
-    <version>1.1.1</version>
+    <version>1.1.2</version>
     <title>ExcludeFromCodeCoverage.Fody</title>
     <authors>martin.noskovic@gmail.com</authors>
     <owners>martin.noskovic@gmail.com</owners>
@@ -14,6 +14,7 @@
     <releaseNotes>
       1.1.0 - improvements, correct .net versioning, documentation
       1.1.1 - dependency issue
+      1.1.2 - missing xml for syntax documentation
     </releaseNotes>
     <summary>Fody add-in to decorate public members of specific types with ExcludeFromCodeCoverage attribute</summary>
     <description>Fody add-in to decorate public members with ExcludeFromCodeCoverage attribute based on definition (esp. for generated classes e.g. by xsd.exe or other tools where it is not possible to influence the output)</description>
@@ -26,7 +27,9 @@
   <files>
     <file src="ExcludeFromCodeCoverage.Fody\bin\Release\ExcludeFromCodeCoverage.Fody.dll" target="" />
     <file src="ExcludeFromCodeCoverage.Fody\bin\Release\ExcludeFromCodeCoverage.dll" target=""/>
+    <file src="ExcludeFromCodeCoverage.Fody\bin\Release\ExcludeFromCodeCoverage.xml" target=""/>
     <file src="ExcludeFromCodeCoverage.Fody\bin\Release\ExcludeFromCodeCoverage.dll" target="lib\net45"/>
+    <file src="ExcludeFromCodeCoverage.Fody\bin\Release\ExcludeFromCodeCoverage.xml" target="lib\net45"/>
     <file src="install.ps1" target="Tools" />
     <file src="uninstall.ps1" target="Tools" />
     <file src="Fody_ToBeDeleted.txt" target="Content" />
